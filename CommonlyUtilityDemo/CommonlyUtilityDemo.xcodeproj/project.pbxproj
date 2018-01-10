@@ -13,6 +13,11 @@
 		16F3D0CC2005BB0300FB20EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3D0CB2005BB0300FB20EF /* Assets.xcassets */; };
 		16F3D0CF2005BB0300FB20EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3D0CD2005BB0300FB20EF /* LaunchScreen.storyboard */; };
 		16F3D0D22005BB0300FB20EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0D12005BB0300FB20EF /* main.m */; };
+		16F3D0DB2005BE5F00FB20EF /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0DA2005BE5F00FB20EF /* UIButton+Utility.m */; };
+		16F3D0DE2005BF5100FB20EF /* UILabel+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0DD2005BF5100FB20EF /* UILabel+Utility.m */; };
+		16F3D0E12005C01200FB20EF /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0E02005C01200FB20EF /* UIColor+Utility.m */; };
+		16F3D0E42005E65000FB20EF /* UIFont+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0E32005E65000FB20EF /* UIFont+Utility.m */; };
+		16F3D0E72005E6FF00FB20EF /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0E62005E6FF00FB20EF /* UIImage+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		16F3D0CE2005BB0300FB20EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F3D0D02005BB0300FB20EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F3D0D12005BB0300FB20EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16F3D0D92005BE5E00FB20EF /* UIButton+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
+		16F3D0DA2005BE5F00FB20EF /* UIButton+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
+		16F3D0DC2005BF5100FB20EF /* UILabel+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utility.h"; sourceTree = "<group>"; };
+		16F3D0DD2005BF5100FB20EF /* UILabel+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utility.m"; sourceTree = "<group>"; };
+		16F3D0DF2005C01200FB20EF /* UIColor+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		16F3D0E02005C01200FB20EF /* UIColor+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		16F3D0E22005E65000FB20EF /* UIFont+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
+		16F3D0E32005E65000FB20EF /* UIFont+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utility.m"; sourceTree = "<group>"; };
+		16F3D0E52005E6FF00FB20EF /* UIImage+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		16F3D0E62005E6FF00FB20EF /* UIImage+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		16F3D0C12005BB0300FB20EF /* CommonlyUtilityDemo */ = {
 			isa = PBXGroup;
 			children = (
+				16F3D0D82005BC5C00FB20EF /* Categories */,
 				16F3D0C22005BB0300FB20EF /* AppDelegate.h */,
 				16F3D0C32005BB0300FB20EF /* AppDelegate.m */,
 				16F3D0C52005BB0300FB20EF /* ViewController.h */,
@@ -69,6 +85,23 @@
 				16F3D0D12005BB0300FB20EF /* main.m */,
 			);
 			path = CommonlyUtilityDemo;
+			sourceTree = "<group>";
+		};
+		16F3D0D82005BC5C00FB20EF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16F3D0D92005BE5E00FB20EF /* UIButton+Utility.h */,
+				16F3D0DA2005BE5F00FB20EF /* UIButton+Utility.m */,
+				16F3D0DC2005BF5100FB20EF /* UILabel+Utility.h */,
+				16F3D0DD2005BF5100FB20EF /* UILabel+Utility.m */,
+				16F3D0DF2005C01200FB20EF /* UIColor+Utility.h */,
+				16F3D0E02005C01200FB20EF /* UIColor+Utility.m */,
+				16F3D0E22005E65000FB20EF /* UIFont+Utility.h */,
+				16F3D0E32005E65000FB20EF /* UIFont+Utility.m */,
+				16F3D0E52005E6FF00FB20EF /* UIImage+Utility.h */,
+				16F3D0E62005E6FF00FB20EF /* UIImage+Utility.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */,
+				16F3D0DE2005BF5100FB20EF /* UILabel+Utility.m in Sources */,
 				16F3D0D22005BB0300FB20EF /* main.m in Sources */,
+				16F3D0DB2005BE5F00FB20EF /* UIButton+Utility.m in Sources */,
+				16F3D0E72005E6FF00FB20EF /* UIImage+Utility.m in Sources */,
+				16F3D0E12005C01200FB20EF /* UIColor+Utility.m in Sources */,
 				16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */,
+				16F3D0E42005E65000FB20EF /* UIFont+Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T99T39TS8;
 				INFOPLIST_FILE = CommonlyUtilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stone.CommonlyUtilityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T99T39TS8;
 				INFOPLIST_FILE = CommonlyUtilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stone.CommonlyUtilityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
