@@ -80,14 +80,37 @@
 }
 
 
-- (void)setNamalBackgroundImage:(UIImage *)nomalImage highLightBackgroundImage:(UIImage *)hlImage
+
+- (void)layoutWithStyle:(LYButtonLayoutStyle)style andSpacing:(CGFloat)spacing
 {
-    if (nomalImage) {
-        [self setBackgroundImage:nomalImage forState:UIControlStateNormal];
-    }
+    CGSize imageSize = self.imageView.frame.size;
+    CGSize titleSize = self.titleLabel.frame.size;
+    CGFloat totalHeight = (imageSize.height + titleSize.height + spacing);
     
-    if (hlImage) {
-        [self setImage:hlImage forState:UIControlStateHighlighted];
+    switch (style) {
+        case LYButtonLayoutStyleVerticalImageFromTop: {
+            self.imageEdgeInsets = UIEdgeInsetsMake(-(totalHeight - imageSize.height), 0.0, 0.0, -titleSize.width);
+            self.titleEdgeInsets = UIEdgeInsetsMake(0, -imageSize.width, -(totalHeight - titleSize.height), 0);
+        }
+            break;
+            
+        case LYButtonLayoutStyleVerticalImageFromBottom: {
+        }
+            break;
+            
+        case LYButtonLayoutStyleHorizontalImageFromLeft: {
+            
+        }
+            break;
+            
+        case LYButtonLayoutStyleHorizontalImageFromRight: {
+            
+        }
+            break;
+            
+        default:
+            break;
     }
 }
+
 @end
