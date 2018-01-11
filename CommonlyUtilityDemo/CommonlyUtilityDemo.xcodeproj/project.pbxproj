@@ -64,20 +64,20 @@
 		162D8E4520070FC30031543C /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				162D8E4C20070FC30031543C /* UIUtility.h */,
 				162D8E4620070FC30031543C /* UIColor+Utility.h */,
+				162D8E5020070FC30031543C /* UIColor+Utility.m */,
+				162D8E4F20070FC30031543C /* UILabel+Utility.h */,
 				162D8E4720070FC30031543C /* UILabel+Utility.m */,
 				162D8E4820070FC30031543C /* UIButton+Utility.h */,
-				162D8E4920070FC30031543C /* UIFont+Utility.m */,
-				162D8E4A20070FC30031543C /* UIImage+Utility.m */,
-				162D8E4B20070FC30031543C /* UIView+Layer.m */,
-				162D8E4C20070FC30031543C /* UIUtility.h */,
-				162D8E4D20070FC30031543C /* UIView+Utility.h */,
 				162D8E4E20070FC30031543C /* UIButton+Utility.m */,
-				162D8E4F20070FC30031543C /* UILabel+Utility.h */,
-				162D8E5020070FC30031543C /* UIColor+Utility.m */,
-				162D8E5120070FC30031543C /* UIImage+Utility.h */,
 				162D8E5220070FC30031543C /* UIFont+Utility.h */,
+				162D8E4920070FC30031543C /* UIFont+Utility.m */,
+				162D8E5120070FC30031543C /* UIImage+Utility.h */,
+				162D8E4A20070FC30031543C /* UIImage+Utility.m */,
 				162D8E5320070FC30031543C /* UIView+Layer.h */,
+				162D8E4B20070FC30031543C /* UIView+Layer.m */,
+				162D8E4D20070FC30031543C /* UIView+Utility.h */,
 				162D8E5420070FC30031543C /* UIView+Utility.m */,
 			);
 			name = Categories;

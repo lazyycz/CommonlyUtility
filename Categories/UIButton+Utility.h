@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, LYButtonLayoutStyle) {
-    LYButtonLayoutStyleVerticalImageFromTop,
-    LYButtonLayoutStyleVerticalImageFromBottom,
-    LYButtonLayoutStyleHorizontalImageFromLeft,
-    LYButtonLayoutStyleHorizontalImageFromRight
+    LYButtonLayoutStyleImagePositionLeft = 0,
+    LYButtonLayoutStyleImagePositionRight,
+    LYButtonLayoutStyleImagePositionTop,
+    LYButtonLayoutStyleImagePositionBottom,
 };
 
 @interface UIButton (Utility)
