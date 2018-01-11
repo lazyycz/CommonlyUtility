@@ -54,12 +54,46 @@
     
     
     [self.view addSubview:({
-        UIImage *image = [UIImage imageWithColor:[UIColor randomColor] imageSize:CGSizeMake(20, 20)];
+        UIImage *image = [UIImage imageNamed:@"comm_wz_icon_sc_slt"];
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(20, 200, 100, 100)];
         [button setImage:image forState:UIControlStateNormal];
         [button setTitleFont:[UIFont H15Font] titleColor:[UIColor randomColor] title:@"Text"];
         [button setLayerCordius:50 borderWidth:1.0 borderColor:[UIColor randomColor]];
-        [button layoutWithStyle:LYButtonLayoutStyleVerticalImageFromTop andSpacing:5];
+        [button layoutWithStyle:LYButtonLayoutStyleVerticalImageFromTop andSpacing:20];
+        [button.titleLabel setBackgroundColor:[UIColor randomColor]];
+        button;
+    })];
+    
+    [self.view addSubview:({
+        UIImage *image = [UIImage imageNamed:@"comm_wz_icon_sc_slt"];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(140, 200, 100, 100)];
+        [button setImage:image forState:UIControlStateNormal];
+        [button setTitleFont:[UIFont H15Font] titleColor:[UIColor randomColor] title:@"Text"];
+        [button setLayerCordius:50 borderWidth:1.0 borderColor:[UIColor randomColor]];
+        [button layoutWithStyle:LYButtonLayoutStyleVerticalImageFromBottom andSpacing:15];
+        [button.titleLabel setBackgroundColor:[UIColor randomColor]];
+        button;
+    })];
+    
+    [self.view addSubview:({
+        UIImage *image = [UIImage imageNamed:@"comm_wz_icon_sc_slt"];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(20, 320, 100, 100)];
+        [button setImage:image forState:UIControlStateNormal];
+        [button setTitleFont:[UIFont H15Font] titleColor:[UIColor randomColor] title:@"Text"];
+        [button setLayerCordius:50 borderWidth:1.0 borderColor:[UIColor randomColor]];
+        [button layoutWithStyle:LYButtonLayoutStyleHorizontalImageFromLeft andSpacing:10];
+        [button.titleLabel setBackgroundColor:[UIColor randomColor]];
+        button;
+    })];
+
+    [self.view addSubview:({
+        UIImage *image = [UIImage imageNamed:@"comm_wz_icon_sc_slt"];
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(140, 320, 100, 100)];
+        [button setImage:image forState:UIControlStateNormal];
+        [button setTitleFont:[UIFont H15Font] titleColor:[UIColor randomColor] title:@"Text"];
+        [button setLayerCordius:50 borderWidth:1.0 borderColor:[UIColor randomColor]];
+        [button layoutWithStyle:LYButtonLayoutStyleHorizontalImageFromRight andSpacing:5];
+        [button.titleLabel setBackgroundColor:[UIColor randomColor]];
         button;
     })];
 }

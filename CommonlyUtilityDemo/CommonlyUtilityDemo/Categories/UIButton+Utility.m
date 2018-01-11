@@ -85,29 +85,31 @@
 {
     CGSize imageSize = self.imageView.frame.size;
     CGSize titleSize = self.titleLabel.frame.size;
-    CGFloat totalHeight = (imageSize.height + titleSize.height + spacing);
     
     switch (style) {
         case LYButtonLayoutStyleVerticalImageFromTop: {
-            self.imageEdgeInsets = UIEdgeInsetsMake(-(totalHeight - imageSize.height), 0.0, 0.0, -titleSize.width);
-            self.titleEdgeInsets = UIEdgeInsetsMake(0, -imageSize.width, -(totalHeight - titleSize.height), 0);
+            self.imageEdgeInsets = UIEdgeInsetsMake(-(titleSize.height + spacing) / 2, titleSize.width / 2, (titleSize.height + spacing) / 2, -(titleSize.width / 2));
+            self.titleEdgeInsets = UIEdgeInsetsMake((imageSize.height + spacing) / 2, -(imageSize.width / 2), -(imageSize.height + spacing) / 2, imageSize.width / 2);
         }
             break;
             
         case LYButtonLayoutStyleVerticalImageFromBottom: {
+            self.imageEdgeInsets = UIEdgeInsetsMake((titleSize.height + spacing) / 2, titleSize.width / 2, -(titleSize.height + spacing) / 2, -(titleSize.width / 2));
+            self.titleEdgeInsets = UIEdgeInsetsMake(-(imageSize.height + spacing) / 2, -(imageSize.width / 2), (imageSize.height + spacing) / 2, imageSize.width / 2);
         }
             break;
             
         case LYButtonLayoutStyleHorizontalImageFromLeft: {
-            
+            self.imageEdgeInsets = UIEdgeInsetsMake(0.0, -(spacing / 2), 0.0, spacing / 2);
+            self.titleEdgeInsets = UIEdgeInsetsMake(0.0, spacing / 2, 0.0, -(spacing / 2));
         }
             break;
             
         case LYButtonLayoutStyleHorizontalImageFromRight: {
-            
+            self.imageEdgeInsets = UIEdgeInsetsMake(0.0, titleSize.width + spacing / 2, 0.0, -(titleSize.width + spacing / 2));
+            self.titleEdgeInsets = UIEdgeInsetsMake(0.0, -(imageSize.width + spacing / 2), 0.0, (imageSize.width + spacing / 2));
         }
             break;
-            
         default:
             break;
     }
