@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1692E0A7200DA1490018ECD6 /* UILabel+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E099200DA1480018ECD6 /* UILabel+Utility.m */; };
-		1692E0A8200DA1490018ECD6 /* UIFont+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09B200DA1480018ECD6 /* UIFont+Utility.m */; };
-		1692E0A9200DA1490018ECD6 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09C200DA1480018ECD6 /* UIImage+Utility.m */; };
-		1692E0AA200DA1490018ECD6 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09D200DA1480018ECD6 /* UIView+Layer.m */; };
-		1692E0AB200DA1490018ECD6 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */; };
-		1692E0AC200DA1490018ECD6 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */; };
-		1692E0AD200DA1490018ECD6 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A6200DA1480018ECD6 /* UIView+Utility.m */; };
+		16A87048200E18190068D795 /* UILabel+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A8703B200E18190068D795 /* UILabel+Utility.m */; };
+		16A87049200E18190068D795 /* UIFont+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A8703D200E18190068D795 /* UIFont+Utility.m */; };
+		16A8704A200E18190068D795 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A8703E200E18190068D795 /* UIImage+Utility.m */; };
+		16A8704B200E18190068D795 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A8703F200E18190068D795 /* UIView+Layer.m */; };
+		16A8704C200E18190068D795 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87041200E18190068D795 /* UIButton+Utility.m */; };
+		16A8704D200E18190068D795 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87043200E18190068D795 /* UIColor+Utility.m */; };
+		16A8704E200E18190068D795 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87047200E18190068D795 /* UIView+Utility.m */; };
 		16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C32005BB0300FB20EF /* AppDelegate.m */; };
 		16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C62005BB0300FB20EF /* ViewController.m */; };
 		16F3D0CA2005BB0300FB20EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3D0C82005BB0300FB20EF /* Main.storyboard */; };
@@ -23,21 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1692E098200DA1480018ECD6 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
-		1692E099200DA1480018ECD6 /* UILabel+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utility.m"; sourceTree = "<group>"; };
-		1692E09A200DA1480018ECD6 /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
-		1692E09B200DA1480018ECD6 /* UIFont+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utility.m"; sourceTree = "<group>"; };
-		1692E09C200DA1480018ECD6 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
-		1692E09D200DA1480018ECD6 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
 		1692E09E200DA1480018ECD6 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
-		1692E09F200DA1480018ECD6 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
-		1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
-		1692E0A1200DA1480018ECD6 /* UILabel+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utility.h"; sourceTree = "<group>"; };
-		1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
-		1692E0A3200DA1480018ECD6 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
-		1692E0A4200DA1480018ECD6 /* UIFont+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
-		1692E0A5200DA1480018ECD6 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
-		1692E0A6200DA1480018ECD6 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		16A8703A200E18190068D795 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		16A8703B200E18190068D795 /* UILabel+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utility.m"; sourceTree = "<group>"; };
+		16A8703C200E18190068D795 /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
+		16A8703D200E18190068D795 /* UIFont+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utility.m"; sourceTree = "<group>"; };
+		16A8703E200E18190068D795 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		16A8703F200E18190068D795 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
+		16A87040200E18190068D795 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		16A87041200E18190068D795 /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
+		16A87042200E18190068D795 /* UILabel+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utility.h"; sourceTree = "<group>"; };
+		16A87043200E18190068D795 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		16A87044200E18190068D795 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		16A87045200E18190068D795 /* UIFont+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
+		16A87046200E18190068D795 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
+		16A87047200E18190068D795 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
 		16F3D0BF2005BB0300FB20EF /* CommonlyUtilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonlyUtilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3D0C22005BB0300FB20EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16F3D0C32005BB0300FB20EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,23 +65,31 @@
 			isa = PBXGroup;
 			children = (
 				1692E09E200DA1480018ECD6 /* UIUtility.h */,
-				1692E098200DA1480018ECD6 /* UIColor+Utility.h */,
-				1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */,
-				1692E0A1200DA1480018ECD6 /* UILabel+Utility.h */,
-				1692E099200DA1480018ECD6 /* UILabel+Utility.m */,
-				1692E09A200DA1480018ECD6 /* UIButton+Utility.h */,
-				1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */,
-				1692E0A4200DA1480018ECD6 /* UIFont+Utility.h */,
-				1692E09B200DA1480018ECD6 /* UIFont+Utility.m */,
-				1692E0A3200DA1480018ECD6 /* UIImage+Utility.h */,
-				1692E09C200DA1480018ECD6 /* UIImage+Utility.m */,
-				1692E0A5200DA1480018ECD6 /* UIView+Layer.h */,
-				1692E09D200DA1480018ECD6 /* UIView+Layer.m */,
-				1692E09F200DA1480018ECD6 /* UIView+Utility.h */,
-				1692E0A6200DA1480018ECD6 /* UIView+Utility.m */,
+				16A87039200E18190068D795 /* Categories */,
 			);
 			name = UIUtility;
 			path = ../UIUtility;
+			sourceTree = "<group>";
+		};
+		16A87039200E18190068D795 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16A8703A200E18190068D795 /* UIColor+Utility.h */,
+				16A87043200E18190068D795 /* UIColor+Utility.m */,
+				16A87042200E18190068D795 /* UILabel+Utility.h */,
+				16A8703B200E18190068D795 /* UILabel+Utility.m */,
+				16A8703C200E18190068D795 /* UIButton+Utility.h */,
+				16A87041200E18190068D795 /* UIButton+Utility.m */,
+				16A87045200E18190068D795 /* UIFont+Utility.h */,
+				16A8703D200E18190068D795 /* UIFont+Utility.m */,
+				16A87044200E18190068D795 /* UIImage+Utility.h */,
+				16A8703E200E18190068D795 /* UIImage+Utility.m */,
+				16A87046200E18190068D795 /* UIView+Layer.h */,
+				16A8703F200E18190068D795 /* UIView+Layer.m */,
+				16A87040200E18190068D795 /* UIView+Utility.h */,
+				16A87047200E18190068D795 /* UIView+Utility.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		16F3D0B62005BB0300FB20EF = {
@@ -189,15 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */,
-				1692E0A7200DA1490018ECD6 /* UILabel+Utility.m in Sources */,
+				16A87048200E18190068D795 /* UILabel+Utility.m in Sources */,
 				16F3D0D22005BB0300FB20EF /* main.m in Sources */,
-				1692E0A8200DA1490018ECD6 /* UIFont+Utility.m in Sources */,
-				1692E0A9200DA1490018ECD6 /* UIImage+Utility.m in Sources */,
+				16A87049200E18190068D795 /* UIFont+Utility.m in Sources */,
+				16A8704A200E18190068D795 /* UIImage+Utility.m in Sources */,
 				16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */,
-				1692E0AB200DA1490018ECD6 /* UIButton+Utility.m in Sources */,
-				1692E0AD200DA1490018ECD6 /* UIView+Utility.m in Sources */,
-				1692E0AC200DA1490018ECD6 /* UIColor+Utility.m in Sources */,
-				1692E0AA200DA1490018ECD6 /* UIView+Layer.m in Sources */,
+				16A8704C200E18190068D795 /* UIButton+Utility.m in Sources */,
+				16A8704E200E18190068D795 /* UIView+Utility.m in Sources */,
+				16A8704D200E18190068D795 /* UIColor+Utility.m in Sources */,
+				16A8704B200E18190068D795 /* UIView+Layer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

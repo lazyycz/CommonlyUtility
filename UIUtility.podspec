@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIUtility"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "UIUtility is a common tool for encapsulation."
   s.description  = <<-DESC
                     A very practical set of encapsulation interfaces that greatly simplify the code layout.
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/lazyycz/CommonlyUtility.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/lazyycz/CommonlyUtility.git", :tag => "1.1.0" }
 
-  s.source_files = "UIUtility/**/*{h,m}"
+  s.source_files = "UIUtility/Categories/**/*{h,m}"
   s.public_header_files = "UIUtility/**/*.h"
   s.requires_arc = true
 
