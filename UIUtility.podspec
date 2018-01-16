@@ -21,10 +21,12 @@ Pod::Spec.new do |s|
 
   s.author       = { "yuchenggui" => "https://github.com/lazyycz" }
 
-  s.source       = { :git => "https://github.com/lazyycz/CommonlyUtility", :tag => "1.0.0" }
+  s.platform     = :ios, "7.0"
 
-  s.source_files = "UIUtility/*{h,m}"
-  s.public_header_files = "UIUtility/*.h"
+  s.source       = { :git => "https://github.com/lazyycz/CommonlyUtility.git", :tag => "1.0.0" }
+
+  s.source_files = "UIUtility/**/*{h,m}"
+  s.public_header_files = "UIUtility/**/*.h"
   s.requires_arc = true
 
 end
