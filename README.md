@@ -6,7 +6,7 @@
 
 ```
 - (void)layoutWithStyle:(LYButtonLayoutStyle)style andSpacing:(CGFloat)spacing
-- 
+
 ```
 
 ### UIButton
