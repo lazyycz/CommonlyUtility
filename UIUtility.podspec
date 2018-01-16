@@ -25,8 +25,14 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/lazyycz/CommonlyUtility.git", :tag => "1.1.0" }
 
-  s.source_files = "UIUtility/Categories/**/*{h,m}"
-  s.public_header_files = "UIUtility/**/*.h"
+
+  s.source_files = "UIUtility/*{h,m}"
+  s.public_header_files = "UIUtility/*.h"
+
+  s.subspec 'Categories' do |categories|
+    categories.source_files = "UIUtility/Categories/*{h,m}"
+  end
+
   s.requires_arc = true
 
 end
