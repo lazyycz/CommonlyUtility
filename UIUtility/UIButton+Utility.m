@@ -28,11 +28,33 @@
 + (UIButton *)buttonWithTitleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title backgroundColor:(UIColor *)backColor
 {
     UIButton *button = [[UIButton alloc] init];
-    
     [button setTitleFont:font titleColor:color title:title backgroundColor:backColor];
-    
     return button;
 }
+
+
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color
+{
+    return [UIButton buttonWithFrame:frame titleFont:font titleColor:color title:nil backgroundColor:nil];
+}
+
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title
+{
+    return [UIButton buttonWithFrame:frame titleFont:font titleColor:color title:title backgroundColor:nil];
+}
+
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color backgroundColor:(UIColor *)backColor
+{
+    return [UIButton buttonWithFrame:frame titleFont:font titleColor:color title:nil backgroundColor:backColor];
+}
+
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title backgroundColor:(UIColor *)backColor
+{
+    UIButton *button = [[UIButton alloc] initWithFrame:frame];
+    [button setTitleFont:font titleColor:color title:title backgroundColor:backColor];
+    return button;
+}
+
 
 
 - (void)setTitleFont:(UIFont *)font titleColor:(UIColor *)color
@@ -68,7 +90,6 @@
         [self setBackgroundColor:backColor];
     }
 }
-
 
 - (void)setTitleFont:(UIFont *)font titleColor:(UIColor *)color normalTitle:(NSString *)normalTitle selectedTitle:(NSString *)selectedTitle
 {

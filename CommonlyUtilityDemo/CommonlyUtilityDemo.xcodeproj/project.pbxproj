@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		162D8E5520070FC30031543C /* UILabel+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E4720070FC30031543C /* UILabel+Utility.m */; };
-		162D8E5620070FC30031543C /* UIFont+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E4920070FC30031543C /* UIFont+Utility.m */; };
-		162D8E5720070FC30031543C /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E4A20070FC30031543C /* UIImage+Utility.m */; };
-		162D8E5820070FC30031543C /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E4B20070FC30031543C /* UIView+Layer.m */; };
-		162D8E5920070FC30031543C /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E4E20070FC30031543C /* UIButton+Utility.m */; };
-		162D8E5A20070FC30031543C /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E5020070FC30031543C /* UIColor+Utility.m */; };
-		162D8E5B20070FC30031543C /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 162D8E5420070FC30031543C /* UIView+Utility.m */; };
+		1692E0A7200DA1490018ECD6 /* UILabel+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E099200DA1480018ECD6 /* UILabel+Utility.m */; };
+		1692E0A8200DA1490018ECD6 /* UIFont+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09B200DA1480018ECD6 /* UIFont+Utility.m */; };
+		1692E0A9200DA1490018ECD6 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09C200DA1480018ECD6 /* UIImage+Utility.m */; };
+		1692E0AA200DA1490018ECD6 /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E09D200DA1480018ECD6 /* UIView+Layer.m */; };
+		1692E0AB200DA1490018ECD6 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */; };
+		1692E0AC200DA1490018ECD6 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */; };
+		1692E0AD200DA1490018ECD6 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692E0A6200DA1480018ECD6 /* UIView+Utility.m */; };
 		16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C32005BB0300FB20EF /* AppDelegate.m */; };
 		16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C62005BB0300FB20EF /* ViewController.m */; };
 		16F3D0CA2005BB0300FB20EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3D0C82005BB0300FB20EF /* Main.storyboard */; };
@@ -23,21 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		162D8E4620070FC30031543C /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
-		162D8E4720070FC30031543C /* UILabel+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utility.m"; sourceTree = "<group>"; };
-		162D8E4820070FC30031543C /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
-		162D8E4920070FC30031543C /* UIFont+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utility.m"; sourceTree = "<group>"; };
-		162D8E4A20070FC30031543C /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
-		162D8E4B20070FC30031543C /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
-		162D8E4C20070FC30031543C /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
-		162D8E4D20070FC30031543C /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
-		162D8E4E20070FC30031543C /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
-		162D8E4F20070FC30031543C /* UILabel+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utility.h"; sourceTree = "<group>"; };
-		162D8E5020070FC30031543C /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
-		162D8E5120070FC30031543C /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
-		162D8E5220070FC30031543C /* UIFont+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
-		162D8E5320070FC30031543C /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
-		162D8E5420070FC30031543C /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		1692E098200DA1480018ECD6 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		1692E099200DA1480018ECD6 /* UILabel+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utility.m"; sourceTree = "<group>"; };
+		1692E09A200DA1480018ECD6 /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
+		1692E09B200DA1480018ECD6 /* UIFont+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utility.m"; sourceTree = "<group>"; };
+		1692E09C200DA1480018ECD6 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		1692E09D200DA1480018ECD6 /* UIView+Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
+		1692E09E200DA1480018ECD6 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
+		1692E09F200DA1480018ECD6 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
+		1692E0A1200DA1480018ECD6 /* UILabel+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utility.h"; sourceTree = "<group>"; };
+		1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		1692E0A3200DA1480018ECD6 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		1692E0A4200DA1480018ECD6 /* UIFont+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
+		1692E0A5200DA1480018ECD6 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
+		1692E0A6200DA1480018ECD6 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
 		16F3D0BF2005BB0300FB20EF /* CommonlyUtilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonlyUtilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3D0C22005BB0300FB20EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16F3D0C32005BB0300FB20EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,33 +61,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		162D8E4520070FC30031543C /* Categories */ = {
+		1692E097200DA1480018ECD6 /* UIUtility */ = {
 			isa = PBXGroup;
 			children = (
-				162D8E4C20070FC30031543C /* UIUtility.h */,
-				162D8E4620070FC30031543C /* UIColor+Utility.h */,
-				162D8E5020070FC30031543C /* UIColor+Utility.m */,
-				162D8E4F20070FC30031543C /* UILabel+Utility.h */,
-				162D8E4720070FC30031543C /* UILabel+Utility.m */,
-				162D8E4820070FC30031543C /* UIButton+Utility.h */,
-				162D8E4E20070FC30031543C /* UIButton+Utility.m */,
-				162D8E5220070FC30031543C /* UIFont+Utility.h */,
-				162D8E4920070FC30031543C /* UIFont+Utility.m */,
-				162D8E5120070FC30031543C /* UIImage+Utility.h */,
-				162D8E4A20070FC30031543C /* UIImage+Utility.m */,
-				162D8E5320070FC30031543C /* UIView+Layer.h */,
-				162D8E4B20070FC30031543C /* UIView+Layer.m */,
-				162D8E4D20070FC30031543C /* UIView+Utility.h */,
-				162D8E5420070FC30031543C /* UIView+Utility.m */,
+				1692E09E200DA1480018ECD6 /* UIUtility.h */,
+				1692E098200DA1480018ECD6 /* UIColor+Utility.h */,
+				1692E0A2200DA1480018ECD6 /* UIColor+Utility.m */,
+				1692E0A1200DA1480018ECD6 /* UILabel+Utility.h */,
+				1692E099200DA1480018ECD6 /* UILabel+Utility.m */,
+				1692E09A200DA1480018ECD6 /* UIButton+Utility.h */,
+				1692E0A0200DA1480018ECD6 /* UIButton+Utility.m */,
+				1692E0A4200DA1480018ECD6 /* UIFont+Utility.h */,
+				1692E09B200DA1480018ECD6 /* UIFont+Utility.m */,
+				1692E0A3200DA1480018ECD6 /* UIImage+Utility.h */,
+				1692E09C200DA1480018ECD6 /* UIImage+Utility.m */,
+				1692E0A5200DA1480018ECD6 /* UIView+Layer.h */,
+				1692E09D200DA1480018ECD6 /* UIView+Layer.m */,
+				1692E09F200DA1480018ECD6 /* UIView+Utility.h */,
+				1692E0A6200DA1480018ECD6 /* UIView+Utility.m */,
 			);
-			name = Categories;
-			path = ../Categories;
+			name = UIUtility;
+			path = ../UIUtility;
 			sourceTree = "<group>";
 		};
 		16F3D0B62005BB0300FB20EF = {
 			isa = PBXGroup;
 			children = (
-				162D8E4520070FC30031543C /* Categories */,
+				1692E097200DA1480018ECD6 /* UIUtility */,
 				16F3D0C12005BB0300FB20EF /* CommonlyUtilityDemo */,
 				16F3D0C02005BB0300FB20EF /* Products */,
 			);
@@ -189,15 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */,
-				162D8E5520070FC30031543C /* UILabel+Utility.m in Sources */,
+				1692E0A7200DA1490018ECD6 /* UILabel+Utility.m in Sources */,
 				16F3D0D22005BB0300FB20EF /* main.m in Sources */,
-				162D8E5620070FC30031543C /* UIFont+Utility.m in Sources */,
-				162D8E5720070FC30031543C /* UIImage+Utility.m in Sources */,
+				1692E0A8200DA1490018ECD6 /* UIFont+Utility.m in Sources */,
+				1692E0A9200DA1490018ECD6 /* UIImage+Utility.m in Sources */,
 				16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */,
-				162D8E5920070FC30031543C /* UIButton+Utility.m in Sources */,
-				162D8E5B20070FC30031543C /* UIView+Utility.m in Sources */,
-				162D8E5A20070FC30031543C /* UIColor+Utility.m in Sources */,
-				162D8E5820070FC30031543C /* UIView+Layer.m in Sources */,
+				1692E0AB200DA1490018ECD6 /* UIButton+Utility.m in Sources */,
+				1692E0AD200DA1490018ECD6 /* UIView+Utility.m in Sources */,
+				1692E0AC200DA1490018ECD6 /* UIColor+Utility.m in Sources */,
+				1692E0AA200DA1490018ECD6 /* UIView+Layer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

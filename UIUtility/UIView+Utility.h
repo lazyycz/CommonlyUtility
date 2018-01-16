@@ -12,7 +12,6 @@ typedef CGFloat UIScreenType;
 
 @interface UIView (Utility)
 
-// coordinator getters
 - (CGFloat)height;
 - (CGFloat)width;
 - (CGFloat)x;
@@ -32,21 +31,17 @@ typedef CGFloat UIScreenType;
 - (void)setY:(CGFloat)y;
 - (void)setTop:(CGFloat)top;
 
-// height
 - (void)setHeight:(CGFloat)height;
 - (void)heightEqualToView:(UIView *)view;
 
-// width
 - (void)setWidth:(CGFloat)width;
 - (void)widthEqualToView:(UIView *)view;
 
-// center
 - (void)setCenterX:(CGFloat)centerX;
 - (void)setCenterY:(CGFloat)centerY;
 - (void)centerXEqualToView:(UIView *)view;
 - (void)centerYEqualToView:(UIView *)view;
 
-// top, bottom, left, right
 - (void)top:(CGFloat)top FromView:(UIView *)view;
 - (void)bottom:(CGFloat)bottom FromView:(UIView *)view;
 - (void)left:(CGFloat)left FromView:(UIView *)view;
@@ -72,11 +67,9 @@ typedef CGFloat UIScreenType;
 - (void)leftEqualToView:(UIView *)view;
 - (void)rightEqualToView:(UIView *)view;
 
-// size
 - (void)setSize:(CGSize)size;
 - (void)sizeEqualToView:(UIView *)view;
 
-// imbueset
 - (void)fillWidth;
 - (void)fillHeight;
 - (void)fill;

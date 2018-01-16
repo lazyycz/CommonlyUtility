@@ -37,12 +37,45 @@
 
 + (UILabel *)labelWithTextFont:(UIFont *)font textColor:(UIColor *)color text:(NSString *)text backgroundColor:(UIColor *)backColor alignment:(NSTextAlignment)alignment
 {
-    UILabel *label = [[UILabel alloc] init];
-    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
     [label setTextFont:font textColor:color text:text backgroundColor:backColor alignment:alignment];
-    
     return label;
 }
+
+
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color
+{
+    return [UILabel labelWithFrame:frame textFont:font textColor:color text:nil backgroundColor:nil alignment:NSTextAlignmentLeft];
+}
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color text:(NSString *)text
+{
+    return [UILabel labelWithFrame:frame textFont:font textColor:color text:text backgroundColor:nil alignment:NSTextAlignmentLeft];
+}
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color backgroundColor:(UIColor *)backColor
+{
+    return [UILabel labelWithFrame:frame textFont:font textColor:color text:nil backgroundColor:backColor alignment:NSTextAlignmentLeft];
+}
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color text:(NSString *)text backgroundColor:(UIColor *)backColor
+{
+    return [UILabel labelWithFrame:frame textFont:font textColor:color text:text backgroundColor:backColor alignment:NSTextAlignmentLeft];
+}
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color text:(NSString *)text alignment:(NSTextAlignment)alignment
+{
+    return [UILabel labelWithFrame:frame textFont:font textColor:color text:text backgroundColor:nil alignment:alignment];
+}
+
++ (UILabel *)labelWithFrame:(CGRect)frame textFont:(UIFont *)font textColor:(UIColor *)color text:(NSString *)text backgroundColor:(UIColor *)backColor alignment:(NSTextAlignment)alignment
+{
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    [label setTextFont:font textColor:color text:text backgroundColor:backColor alignment:alignment];
+    return label;
+}
+
 
 
 - (void)setTextFont:(UIFont *)font textColor:(UIColor *)color

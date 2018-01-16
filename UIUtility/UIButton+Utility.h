@@ -22,6 +22,12 @@ typedef NS_ENUM(NSInteger, LYButtonLayoutStyle) {
 + (UIButton *)buttonWithTitleFont:(UIFont *)font titleColor:(UIColor *)color backgroundColor:(UIColor *)backColor;
 + (UIButton *)buttonWithTitleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title backgroundColor:(UIColor *)backColor;
 
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color;
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title;
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color backgroundColor:(UIColor *)backColor;
++ (UIButton *)buttonWithFrame:(CGRect)frame titleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title backgroundColor:(UIColor *)backColor;
+
+
 - (void)setTitleFont:(UIFont *)font titleColor:(UIColor *)color;
 - (void)setTitleFont:(UIFont *)font titleColor:(UIColor *)color title:(NSString *)title;
 - (void)setTitleFont:(UIFont *)font titleColor:(UIColor *)color backgroundColor:(UIColor *)backColor;
