@@ -14,6 +14,7 @@
 		16A8704C200E18190068D795 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87041200E18190068D795 /* UIButton+Utility.m */; };
 		16A8704D200E18190068D795 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87043200E18190068D795 /* UIColor+Utility.m */; };
 		16A8704E200E18190068D795 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A87047200E18190068D795 /* UIView+Utility.m */; };
+		16E147152061049A0015B6B4 /* NSAttributedString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E147142061049A0015B6B4 /* NSAttributedString+Utility.m */; };
 		16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C32005BB0300FB20EF /* AppDelegate.m */; };
 		16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F3D0C62005BB0300FB20EF /* ViewController.m */; };
 		16F3D0CA2005BB0300FB20EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3D0C82005BB0300FB20EF /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 		16A87045200E18190068D795 /* UIFont+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utility.h"; sourceTree = "<group>"; };
 		16A87046200E18190068D795 /* UIView+Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
 		16A87047200E18190068D795 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		16E147132061049A0015B6B4 /* NSAttributedString+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Utility.h"; sourceTree = "<group>"; };
+		16E147142061049A0015B6B4 /* NSAttributedString+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Utility.m"; sourceTree = "<group>"; };
 		16F3D0BF2005BB0300FB20EF /* CommonlyUtilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonlyUtilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3D0C22005BB0300FB20EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16F3D0C32005BB0300FB20EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				16A8703F200E18190068D795 /* UIView+Layer.m */,
 				16A87040200E18190068D795 /* UIView+Utility.h */,
 				16A87047200E18190068D795 /* UIView+Utility.m */,
+				16E147132061049A0015B6B4 /* NSAttributedString+Utility.h */,
+				16E147142061049A0015B6B4 /* NSAttributedString+Utility.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				16F3D0C72005BB0300FB20EF /* ViewController.m in Sources */,
 				16A87048200E18190068D795 /* UILabel+Utility.m in Sources */,
 				16F3D0D22005BB0300FB20EF /* main.m in Sources */,
+				16E147152061049A0015B6B4 /* NSAttributedString+Utility.m in Sources */,
 				16A87049200E18190068D795 /* UIFont+Utility.m in Sources */,
 				16A8704A200E18190068D795 /* UIImage+Utility.m in Sources */,
 				16F3D0C42005BB0300FB20EF /* AppDelegate.m in Sources */,
