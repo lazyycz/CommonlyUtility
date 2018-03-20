@@ -15,6 +15,7 @@
 #import "UIFont+Utility.h"
 #import "UIImage+Utility.h"
 #import "UIView+Utility.h"
+#import "NSAttributedString+Utility.h"
 #import "UIView+Layer.h"
 
 #endif /* UIUtility_h */
